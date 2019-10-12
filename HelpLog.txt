@@ -1,0 +1,1 @@
+2019/10/11 -- Learn details about sobel algorithm  https://www.jianshu.com/p/97eca45f52cd		
