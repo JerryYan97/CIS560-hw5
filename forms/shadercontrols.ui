@@ -74,6 +74,26 @@
       <string>Worley Noise</string>
      </property>
     </item>
+    <item>
+     <property name="text">
+      <string>Snowy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CRT-TV</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chromatic Aberration</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Disolved</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QLabel" name="label">

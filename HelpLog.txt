@@ -1,1 +1,2 @@
-2019/10/11 -- Learn details about sobel algorithm  https://www.jianshu.com/p/97eca45f52cd		
+2019/10/11 -- Learn details about sobel algorithm  https://www.jianshu.com/p/97eca45f52cd
+2019/10/12 -- Learn something about the noise https://github.com/ashima/webgl-noise		

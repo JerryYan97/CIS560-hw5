@@ -62,7 +62,6 @@ void main()
     vec2 texel_size = 1.0 / textureSize(u_RenderedTexture, 0);
 
     // weighted color of the current texel
-    //vec3 resColor = vec3(GetWeight(5, 5) * texture(u_RenderedTexture, fs_UV));
     vec3 resColor = vec3(0, 0, 0);
     
     // accumulate the surrounded texel color 

@@ -227,6 +227,22 @@ void MyGL::createShaders()
     worley->create(":/glsl/post/passthrough.vert.glsl", ":/glsl/post/worleywarp.frag.glsl");
     m_postprocessShaders.push_back(worley);
 
+    std::shared_ptr<PostProcessShader> snowy = std::make_shared<PostProcessShader>(this);
+    snowy->create(":/glsl/post/passthrough.vert.glsl", ":/glsl/post/snowy.frag.glsl");
+    m_postprocessShaders.push_back(snowy);
+
+    std::shared_ptr<PostProcessShader> crt_tv = std::make_shared<PostProcessShader>(this);
+    crt_tv->create(":/glsl/post/passthrough.vert.glsl", ":/glsl/post/crt_tv.frag.glsl");
+    m_postprocessShaders.push_back(crt_tv);
+
+    std::shared_ptr<PostProcessShader> chromatic_aberration = std::make_shared<PostProcessShader>(this);
+    chromatic_aberration->create(":/glsl/post/passthrough.vert.glsl", ":/glsl/post/chromatic_aberration.frag.glsl");
+    m_postprocessShaders.push_back(chromatic_aberration);
+
+    std::shared_ptr<PostProcessShader> disolved = std::make_shared<PostProcessShader>(this);
+    disolved->create(":/glsl/post/passthrough.vert.glsl", ":/glsl/post/disolved.frag.glsl");
+    m_postprocessShaders.push_back(disolved);
+
     slot_setCurrentPostprocessShaderProgram(0);
     mp_progPostprocessNoOp = m_postprocessShaders[0].get();
 

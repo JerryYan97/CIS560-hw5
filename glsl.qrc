@@ -19,5 +19,9 @@
         <file>glsl/post/worleywarp.frag.glsl</file>
         <file>glsl/surface/disappearEffect.frag.glsl</file>
         <file>glsl/surface/disappearEffect.vert.glsl</file>
+        <file>glsl/post/snowy.frag.glsl</file>
+        <file>glsl/post/crt_tv.frag.glsl</file>
+        <file>glsl/post/chromatic_aberration.frag.glsl</file>
+        <file>glsl/post/disolved.frag.glsl</file>
     </qresource>
 </RCC>
